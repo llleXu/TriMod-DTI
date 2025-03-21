@@ -3,6 +3,8 @@ TriMod-DTI: A Tri-Modal Contrastive Learning Framework for Drug-Target Interacti
 <ul>
   <li>Overview</li>
   <li>Environment installation</li>
-  <li>Citation</li>
+  <li>Datasets</li>
+  <li>Using</li>
 </ul>
+## Overview
 
