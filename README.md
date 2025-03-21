@@ -7,8 +7,8 @@ TriMod-DTI: A Tri-Modal Contrastive Learning Framework for Drug-Target Interacti
     <li><a href="#section4">Using</li>
 </ul>
 
-<!-- 跳转目标 -->
 <h2 id="section1">Overview</h2>
+<p> TriMod-DTI is an innovative drug-target interaction (DTI) prediction framework that integrates three modalities of data, including 1D sequences, 2D molecular graphs, and 3D structures, for feature representation of drugs and proteins. The framework employs a tri-modal contrastive learning strategy, constructing cross-modal positive and negative sample pairs to align feature representations of different modalities in the latent space, thereby achieving feature enhancement.</p>
 <img src="https://github.com/llleXu/TriMod-DTI/raw/main/figure/img.png" alt="Image" />
 
 <h2 id="section2">Environment installation</h2>
