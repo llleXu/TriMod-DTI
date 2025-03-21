@@ -23,6 +23,6 @@ conda activate TriMod-DTI
 <h2 id="section3">Datasets</h2>
 <p> </p>
 
-<h2 id="section4">Using/h2>
+<h2 id="section4">Using</h2>
 <p> </p>
 
