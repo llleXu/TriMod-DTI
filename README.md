@@ -14,6 +14,7 @@ TriMod-DTI: A Tri-Modal Contrastive Learning Framework for Drug-Target Interacti
 <h2 id="section2">Environment installation</h2>
 <h3> Create a virtual environment </h3>
 <p></p>
+
 ```bash
 conda create -n TriMod-DTI python=3.10
 conda activate TriMod-DTI
