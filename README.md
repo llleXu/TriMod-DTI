@@ -14,16 +14,15 @@ TriMod-DTI: A Tri-Modal Contrastive Learning Framework for Drug-Target Interacti
 <h2 id="section2">Environment installation</h2>
 <h3> Create a virtual environment </h3>
 <p>To create and activate a virtual environment, use the following commands:</p>
-
 ```bash
 # 创建虚拟环境
 python -m venv myenv
-
 # 激活虚拟环境
 # Windows
 myenv\Scripts\activate
 # macOS/Linux
 source myenv/bin/activate
+```
 
 <h2 id="section3">Datasets</h2>
 <p>这是第三部分的内容。</p>
