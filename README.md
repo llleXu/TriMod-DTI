@@ -13,7 +13,7 @@ TriMod-DTI: A Tri-Modal Contrastive Learning Framework for Drug-Target Interacti
 
 <h2 id="section2">Environment installation</h2>
 <h3> Create a virtual environment </h3>
-<p></p>
+<p>```conda</p>
 
 <h2 id="section3">Datasets</h2>
 <p>这是第三部分的内容。</p>
