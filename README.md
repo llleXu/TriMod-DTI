@@ -9,7 +9,7 @@ TriMod-DTI: A Tri-Modal Contrastive Learning Framework for Drug-Target Interacti
 
 <!-- 跳转目标 -->
 <h2 id="section1">Overview</h2>
-![Logo](https://github.com/llleXu/TriMod-DTI/blob/main/figure/img.png)
+![Image](https://github.com/llleXu/TriMod-DTI/raw/main/figure/img.png)
 
 <p>这是第一部分的内容。</p>
 
