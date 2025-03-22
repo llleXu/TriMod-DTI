@@ -35,6 +35,8 @@ The data directory includes all the experimental datasets utilized in TriMod-DTI
 <h3> Download SDF and PDB Files </h3>
 The drug SDF files and protein PDB files are too large to be hosted directly on GitHub. These files are available for download via Google Drive at the following links:
 
+<ul>
+    <li>GPCR Dataset</li>
 1. **GPCR Dataset**  
    - [Download](https://drive.google.com/drive/folders/17kwk8Nfdu3m0xShX-6AFLL0Y-_VRKqaV?usp=drive_link)  
 
@@ -43,6 +45,7 @@ The drug SDF files and protein PDB files are too large to be hosted directly on 
 
 3. **DrugBank Dataset**  
    - [Download](https://drive.google.com/your-drugbank-link-here)  
+</ul>
 
 <h2 id="section4">Using</h2>
 <h3> Configuration </h3>
@@ -50,11 +53,11 @@ Update the file paths in main.py to match your local directory structure. Modify
 
 ```bash
 Data_set = Data_Encoder(
-    txtpath="data/gpcr/train_gpcr.txt", # Path to the text file
-    sdf_directory="data/sdf_files/",                # Directory containing SDF files
-    sdf_map_path="data/gpcr/sdf_train_id.txt",           # Path to the SDF mapping file
-    pdb_directory="data/pdb_files/",                # Directory containing PDB files
-    pdb_map_path="data/pdb_train_id.txt"            # Path to the PDB mapping file
+    txtpath="data/gpcr/train_gpcr.txt",                 # Path to the text file
+    sdf_directory="data/sdf_files/",                    # Directory containing SDF files
+    sdf_map_path="data/gpcr/sdf_train_id.txt",          # Path to the SDF mapping file
+    pdb_directory="data/pdb_files/",                    # Directory containing PDB files
+    pdb_map_path="data/pdb_train_id.txt"                # Path to the PDB mapping file
 )
 ```
 <h3> Training and evaluation </h3>
