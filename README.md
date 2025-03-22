@@ -37,7 +37,7 @@ The drug SDF files and protein PDB files are too large to be hosted directly on 
 
 <ul>
     <li>GPCR Dataset</li>
-1. **GPCR Dataset**  
+
    - [Download](https://drive.google.com/drive/folders/17kwk8Nfdu3m0xShX-6AFLL0Y-_VRKqaV?usp=drive_link)  
 
 2. **Human Dataset**  
