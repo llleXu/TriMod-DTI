@@ -38,7 +38,7 @@ The drug SDF files and protein PDB files are too large to be hosted directly on 
 
 - GPCR Dataset : [download](https://drive.google.com/drive/folders/17kwk8Nfdu3m0xShX-6AFLL0Y-_VRKqaV?usp=drive_link)  
 - Human Dataset : [download](https://drive.google.com/drive/folders/1POucIaqWUIFS3o-Rq3-frwsCInbq4mWs?usp=drive_link)  
-- DrugBank Dataset : [download](https://drive.google.com/your-drugbank-link-here) 
+- DrugBank Dataset : [download](https://drive.google.com/drive/folders/13UxecbtQehpnpqKc72JJ82A4UE0bnjht?usp=sharing) 
 
 
 <h2 id="section4">Using</h2>
