@@ -13,10 +13,9 @@ TriMod-DTI: A Tri-Modal Contrastive Learning Framework for Drug-Target Interacti
 
 <h2 id="section2">Installation</h2>
 <h3> Clone or download the repo</h3>
-
+<p> git clone https://github.com/llleXu/TriMod-DTI.git</p>
 <h3> Create a virtual environment </h3>
 <p></p>
-
 ```bash
 conda create -n TriMod-DTI python=3.10
 conda activate TriMod-DTI
