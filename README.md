@@ -5,6 +5,7 @@ TriMod-DTI: A Tri-Modal Contrastive Learning Framework for Drug-Target Interacti
     <li><a href="#section2">Installation</a></li>
     <li><a href="#section3">Data</a></li>
     <li><a href="#section4">Using</li>
+    <li><a href="#section5">Acknowledgements</li>
 </ul>
 
 <h2 id="section1">Overview</h2>
@@ -60,3 +61,12 @@ cd dataset
 python main.py
 ```
 dataset specifically refers to gpcr, human and drugbank.
+
+<h2 id="section5">Acknowledgements</h2>
+This implementation takes inspiration from prior work [1],[2],[3] and introduces several improvements and extensions to the original approach.
+
+```bash
+[1]Lin X, Zhang X, Yu Z G, et al. CSCL-DTI: predicting drug-target interaction through cross-view and self-supervised contrastive learning[C]//2024 IEEE International Conference on Bioinformatics and Biomedicine (BIBM). IEEE, 2024: 707-712.
+[2]Yazdani-Jahromi M, Yousefi N, Tayebi A, et al. AttentionSiteDTI: an interpretable graph-based model for drug-target interaction prediction using NLP sentence-level relation classification[J]. Briefings in Bioinformatics, 2022, 23(4): bbac272.
+[3]Mu S, Liang S, Li X. Medication Recommendation via Dual Molecular Modalities and Multi-Substructure Enhancement[J]. arXiv preprint arXiv:2405.20358, 2024.
+```
