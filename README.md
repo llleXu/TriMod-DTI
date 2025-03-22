@@ -3,7 +3,7 @@ TriMod-DTI: A Tri-Modal Contrastive Learning Framework for Drug-Target Interacti
 <ul>
     <li><a href="#section1">Overview</a></li>
     <li><a href="#section2">Installation</a></li>
-    <li><a href="#section3">Datasets</a></li>
+    <li><a href="#section3">Data</a></li>
     <li><a href="#section4">Using</li>
 </ul>
 
@@ -29,8 +29,12 @@ cd TriMod-DTI
 pip install -r requirements.txt
 ```
 
-<h2 id="section3">Datasets</h2>
-<p> </p>
+<h2 id="section3">Data</h2>
+<h3> Datasets </h3>
+The data directory includes all the experimental datasets utilized in TriMod-DTI, covering GPCR, Human, and DrugBank.
+<h3> Dataset Preparation </h3>
+
+<p>Download  </p>
 
 <h2 id="section4">Using</h2>
 <p> </p>
