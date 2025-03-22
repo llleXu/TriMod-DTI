@@ -36,7 +36,7 @@ The data directory includes all the experimental datasets utilized in TriMod-DTI
 The drug SDF files and protein PDB files are too large to be hosted directly on GitHub. These files are available for download via Google Drive at the following links:
 
 1. **GPCR Dataset**  
-   - [Download](https://drive.google.com/your-gpcr-link-here)  
+   - [Download](https://drive.google.com/drive/folders/17kwk8Nfdu3m0xShX-6AFLL0Y-_VRKqaV?usp=drive_link)  
 
 2. **Human Dataset**  
    - [Download](https://drive.google.com/your-human-link-here)  
@@ -44,8 +44,23 @@ The drug SDF files and protein PDB files are too large to be hosted directly on 
 3. **DrugBank Dataset**  
    - [Download](https://drive.google.com/your-drugbank-link-here)  
 
-<h3> Data preparation</h3>
-
 <h2 id="section4">Using</h2>
-<p> </p>
+<h3> Configuration </h3>
+Update the file paths in main.py to match your local directory structure. Modify the Data_Encoder initialization as follows:
 
+```bash
+Data_set = Data_Encoder(
+    txtpath="data/gpcr/train_gpcr.txt", # Path to the text file
+    sdf_directory="data/sdf_files/",                # Directory containing SDF files
+    sdf_map_path="data/gpcr/sdf_train_id.txt",           # Path to the SDF mapping file
+    pdb_directory="data/pdb_files/",                # Directory containing PDB files
+    pdb_map_path="data/pdb_train_id.txt"            # Path to the PDB mapping file
+)
+```
+<h3> Training and evaluation </h3>
+
+```bash
+cd dataset
+python main.py
+```
+dataset specifically refers to gpcr, human and drugbank.
