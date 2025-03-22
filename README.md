@@ -32,7 +32,7 @@ pip install -r requirements.txt
 <h2 id="section3">Data</h2>
 <h3> Datasets </h3>
 The data directory includes all the experimental datasets utilized in TriMod-DTI, covering GPCR, Human, and DrugBank.
-<h3> Dataset Preparation </h3>
+<h3> Download SDF and PDB Files </h3>
 The drug SDF files and protein PDB files are too large to be hosted directly on GitHub. These files are available for download via Google Drive at the following links:
 
 1. **GPCR Dataset**  
@@ -43,6 +43,8 @@ The drug SDF files and protein PDB files are too large to be hosted directly on 
 
 3. **DrugBank Dataset**  
    - [Download](https://drive.google.com/your-drugbank-link-here)  
+
+<h3> Data preparation</h3>
 
 <h2 id="section4">Using</h2>
 <p> </p>
