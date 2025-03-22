@@ -13,7 +13,12 @@ TriMod-DTI: A Tri-Modal Contrastive Learning Framework for Drug-Target Interacti
 
 <h2 id="section2">Installation</h2>
 <h3> Clone or download the repo</h3>
-<p> git clone https://github.com/llleXu/TriMod-DTI.git</p>
+<p></p>
+
+```bash
+git clone https://github.com/llleXu/TriMod-DTI.git
+```
+
 <h3> Create a virtual environment </h3>
 <p></p>
 
