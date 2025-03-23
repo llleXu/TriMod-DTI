@@ -509,8 +509,8 @@ class Attention(nn.Module):
         self.output = SelfOutput(hidden_size, hidden_dropout_prob)
 
     def forward(self, input_tensor, attention_mask):
-        self_output = self.self(input_tensor, attention_mask)  # +注意力
-        attention_output = self.output(self_output, input_tensor)  # +残差
+        self_output = self.self(input_tensor, attention_mask)  
+        attention_output = self.output(self_output, input_tensor)  
         return attention_output
 
 
@@ -654,7 +654,7 @@ class Tester(object):
         PRC = auc(fpr, tpr)
         precision = precision_score(T, Y)
         recall = recall_score(T, Y)
-        return AUC, PRC, precision, recall,Y
+        return AUC, PRC, precision, recall
 
     def save_AUCs(self, AUCs, filename):
         with open(filename, 'a') as f:
