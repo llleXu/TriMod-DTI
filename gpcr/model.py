@@ -654,7 +654,7 @@ class Tester(object):
         PRC = auc(fpr, tpr)
         precision = precision_score(T, Y)
         recall = recall_score(T, Y)
-        return AUC, PRC, precision, recall,Y
+        return AUC, PRC, precision, recall
 
     def save_AUCs(self, AUCs, filename):
         with open(filename, 'a') as f:
