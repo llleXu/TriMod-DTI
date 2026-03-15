@@ -1,5 +1,5 @@
 # TriMod-DTI
-TriMod-DTI: A Tri-Modal Contrastive Learning Framework for Drug-Target Interaction Prediction
+A Triple-Modal Contrastive Learning Framework with Sequence, Graph, and 3D Features for Drug–Target Interaction Prediction
 <ul>
     <li><a href="#section1">Overview</a></li>
     <li><a href="#section2">Installation</a></li>
