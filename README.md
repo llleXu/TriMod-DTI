@@ -36,7 +36,9 @@ The data directory includes all the experimental datasets utilized in TriMod-DTI
 <h3> Download SDF and PDB Files </h3>
 The drug SDF files and protein PDB files are too large to be hosted directly on GitHub. These files are available for download via Google Drive at the following links:
 
-- GPCR Dataset : [download](https://drive.google.com/drive/folders/17kwk8Nfdu3m0xShX-6AFLL0Y-_VRKqaV?usp=drive_link)  
+- GPCR Dataset : [download](https://drive.google.com/drive/folders/17kwk8Nfdu3m0xShX-6AFLL0Y-_VRKqaV?usp=drive_link)
+- Human Dataset : [download](https://drive.google.com/drive/folders/1POucIaqWUIFS3o-Rq3-frwsCInbq4mWs?usp=drive_link)
+- DrugBnak Dataset : [download](https://drive.google.com/drive/folders/13UxecbtQehpnpqKc72JJ82A4UE0bnjht?usp=sharing) 
 
 
 <h2 id="section4">Using</h2>
